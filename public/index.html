@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Stream YouTube Audio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="audio-streamer">
+            <input type="text" id="url" class="audio-streamer__input" placeholder="Enter YouTube URL">
+            <button class="audio-streamer__button" onclick="playAudio()">Play Audio</button>
+            <audio controls class="audio-streamer__player" id="audioPlayer"></audio>
+            <div class="audio-streamer__buffer-status" id="bufferStatus">Buffered: 0 minutes</div>
+            <div class="audio-streamer__connection-status" id="connectionStatus">Status: Online</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

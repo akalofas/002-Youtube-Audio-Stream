@@ -1,0 +1,34 @@
+{
+  "name": "002-youtube-audio-stream",
+  "version": "1.0.0",
+  "description": "Youtube Audio only stream with buffering for offline",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akalofas/002-Youtube-Audio-Stream.git"
+  },
+  "keywords": [
+    "Streaming",
+    "youtube",
+    "audio"
+  ],
+  "author": "Angelos Kalofas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akalofas/002-Youtube-Audio-Stream/issues"
+  },
+  "homepage": "https://github.com/akalofas/002-Youtube-Audio-Stream#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "npm": "^10.8.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
